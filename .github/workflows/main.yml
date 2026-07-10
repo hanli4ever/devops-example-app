@@ -6,7 +6,7 @@ on:
       - 'main'
 
 env:
-  TEST_TAG: artyombarashev/devops-example-app:test
+  TEST_TAG: artyombarashev/devops-app:test
 
 jobs:
   docker:
@@ -34,4 +34,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: artyombarashev/devops-example-app:latest
+          tags: artyombarashev/devops-app:latest
