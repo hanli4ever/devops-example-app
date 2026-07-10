@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 env:
-  APP_IMAGE_NAME: artyombarashev/devops-example-app
+  APP_IMAGE_NAME: artyombarashev/devops-app
 
 jobs:
   docker:
